@@ -1,0 +1,153 @@
+@media screen and (min-width: 320px) {
+
+    .finger-up {
+        display: block;
+        position: absolute;
+        top: -232px;
+        left: 0;
+        width: 50px;
+        transform: rotate(180deg);
+        z-index: 2;
+    }
+
+    .two {
+        /* left: 65px; */
+        top: -267px;
+        margin-left: 101px;
+    }
+
+    .three {
+        /* left: 129px; */
+        top: -302px;
+        margin-left: 200px;
+    }
+
+    .finger-bottom {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -232px;
+        width: 50px;
+        position: fixed;
+    }
+
+    .five {
+        /* right: 65px; */
+        bottom: -267px;
+        margin-right: 101px;
+    }
+
+    .six {
+        /* right: 129px; */
+        margin-right: 200px;
+        bottom: -302px;
+    }
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 601px) {
+
+    /*vertical fingers*/
+
+    .finger-up {
+        top: -210px; /* + 45px for two*/
+    }
+
+    .finger-up, .finger-bottom, .horizontal-finger {
+        width: 75px;
+    }
+
+    .finger-bottom {
+        bottom: -177px;
+        z-index: 2;
+    }
+
+    .two {
+        /* left: 175px; */
+        top: -330px; /* + 55px for three*/
+        margin-left: 135px;
+    }
+
+    .three {
+        /* left: 345px; */
+        top: -415px;
+        margin-left: 265px;
+    }
+
+    .five {
+        /* right: 180px; */
+        bottom: -315px;
+        margin-right: 135px;
+    }
+
+    .six {
+        /* right: 355px; */
+        bottom: -400px;
+        margin-right: 268px;
+    }
+
+    /*horizontal fingers*/
+    .horizontal-finger {
+        display: block;
+        position: absolute;
+        /* width: 55px; */
+        top: 25%;
+        transform: rotate(90deg);
+        position: fixed;
+    }
+
+    .fing-comp-1 { 
+        left: -130px;
+    }
+
+    .fing-comp-2 {
+        /* top: 440px; */
+        left: -215px;
+        margin-top: 135px;
+    }
+
+    .fing-comp-3 {
+        top: 15px;
+        /* margin-top: -280px; */
+        right: -130px;
+        transform: rotate(-90deg);
+    }
+
+    .fing-comp-4 {
+        top: 50px;
+        right: -210px;
+        margin-top: 100px;
+        transform: rotate(-90deg);
+    }
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1024px) {
+    .two {
+        /* left: 175px; */
+        top: -330px; 
+        margin-left: 180px;
+    }
+
+    .three {
+        /* left: 345px; */
+        top: -415px;
+        margin-left: 355px;
+    }
+
+    .five {
+        /* right: 180px; */
+        bottom: -315px;
+        margin-right: 180px;
+        
+    }
+
+    .six {
+        /* right: 355px; */
+        bottom: -400px;
+        margin-right: 355px;
+    }
+}
