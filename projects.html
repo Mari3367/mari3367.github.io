@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="horizontal-components.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/890411f35f.js" crossorigin="anonymous"></script>
+    <title>Projects</title>
+</head>
+<body>
+    <div id="container">
+        <img src="images/rounded-rectangle.svg" class="finger-up">
+        <img src="images/rounded-rectangle.svg" class="finger-up two">
+        <img src="images/rounded-rectangle.svg" class="finger-up three">
+        <img src="images/rounded-rectangle.svg" class="finger-bottom">
+        <img src="images/rounded-rectangle.svg" class="finger-bottom five">
+        <img src="images/rounded-rectangle.svg" class="finger-bottom six">
+
+        <a href="menu.html"><i class="fa-solid fa-ellipsis" id="menu"></i></a></i>
+        
+        <div id="projects">
+            <h1 class="project-title">My Projects</h1>
+            <div class="project-row">
+                <div class="project-row-left">Projects</div>
+                <div class="project-row-right">Web Development</div>
+            </div>
+            <hr>
+            <div class="project-row">
+                <div class="project-row-left">Project</div>
+                <div class="project-row-right">Web Development</div>
+            </div>
+            <hr>
+            <div class="project-row">
+                <div class="project-row-left">Nucleus</div>
+                <div class="project-row-right">Manga</div>
+            </div>
+            <hr>
+            <div class="project-row">
+                <div class="project-row-left">ArtBurst</div>
+                <div class="project-row-right">Illustration</div>
+            </div>
+            <hr>
+
+        </div>
+    </div>
+</body>
+
+<style>
+    @media screen and (min-width: 601px) {
+
+        #menu {
+            position: absolute;
+            right: 70px;
+            top: 37px;
+        }
+
+        .finger-up {
+            /* top: -135px; */
+            /* transform: rotate(90deg);
+            margin-top: 75px; */
+            top: -115px;
+            left: 0;
+            transform: rotate(90deg);
+        }
+
+        .two {
+            /* margin-top: -120px; */
+            /* left: 3px;
+            margin-bottom: 20px; */
+            top: -255px;
+            left: -5px;
+        }
+
+        .three, .five {
+            display: none;
+        }
+
+        .finger-bottom {
+            bottom: -115px;
+            right: 0;
+            transform: rotate(-90deg);
+        }
+
+        .six {
+            bottom: -255px;
+            right: -130px;
+        }
+    
+    }
+
+    @media screen and (min-width: 1024px) {
+        .finger-up{
+            transform: rotate(-180deg);
+        }
+
+        .two {
+            top: -360px;
+        }
+
+        .finger-bottom {
+            transform: rotate(0deg);
+        }
+    }
+</style>
+</html>
