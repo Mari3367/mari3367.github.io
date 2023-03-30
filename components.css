@@ -45,6 +45,34 @@
 
 }
 
+/*Mobile size with height*/
+
+@media screen and (min-height: 750px) {
+    .finger-up {
+        top: -145px;
+    }
+
+    .two {
+        top: -220px;
+    }
+
+    .three {
+        top: -280px;
+    }
+
+    .finger-bottom {
+        bottom: -145px;
+    }
+
+    .five {
+        bottom: -220px;
+    }
+
+    .six {
+        bottom: -280px;
+    }
+}
+
 /*Tablet*/
 
 @media screen and (min-width: 601px) {

@@ -44,35 +44,8 @@
         bottom: -302px;
     }
 
-    /*projects.html*/ 
 
-    .project-title {
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    hr {
-        margin-top: 0;
-        margin-bottom: 25px;
-    }
-
-    #projects {
-        width: 65vw;
-        /* height: 45%; */
-    }
-
-    .project-row {
-        display: flex;
-        width: auto;
-        justify-content: space-between;
-    }
-
-    .project-row-right {
-        font-size: 8px;
-        margin-top: 8px;
-    }
-
-}
+} 
 
 /*Tablet*/
 
@@ -151,25 +124,7 @@
         transform: rotate(-90deg);
     }
 
-    /*projects.html*/
-    #projects {
-        width: 60vw;
-        height: 35%;
-    }
-
-    .project-row-left {
-        font-size: 30px;
-        margin-bottom: 5px;
-    }
-
-    .project-row-right {
-        font-size: 14px;
-        margin-top: 17px;
-    }
-
-    hr {
-        margin-bottom: 35px
-    }
+    
 }
 
 /*Desktop*/
@@ -223,16 +178,5 @@
         bottom: -255px;
     }
 
-    /*projects.html*/
-
-    #projects {
-        width: 40vw;
-        height: 70vh;
-    }
-
-    .project-row-right {
-        font-size: 14px;
-        margin-top: 20px;
-    }
 
 }

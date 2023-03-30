@@ -19,20 +19,19 @@
     
     #upper-icons {
         position: absolute;
-        right: 15px;
+        right: 20px;
         top: 20px;
         display: flex;
         flex-direction: column;
     }
 
     .fa-moon {
-        font-size: 14px;
-        margin-top: 20px;
-
+        font-size: 17px;
+        margin-top: 30px;
     }
 
     .fa-ellipsis {
-        font-size: 22px;
+        font-size: 23px;
     }
 
     #content {
@@ -46,7 +45,6 @@
         font-size: 15px;
     }
 
-    
 
     h1 {
         margin-bottom: 0;
@@ -57,7 +55,12 @@
     .intro {
         margin: 50px 10px;
         text-align: center;
+        font-size: 20px;
     }
+
+    .break-part {
+        display: block;
+       }
 
     #projects-about {
         display: flex;
@@ -65,13 +68,14 @@
     }
 
     #projects-about > * {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         text-decoration: none;
+        font-size: 17px;
     }
 
 
    .fa-greater-than {
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 7px;
    }
 
@@ -100,15 +104,128 @@
         margin: 0;
         position: relative;
         flex-direction: column;
-   }
+    }
 
    #menu-sections * {
-    text-decoration: none;
-    margin-bottom: 35px;
-    font-size: 25px;
+        text-decoration: none;
+        margin-bottom: 35px;
+         font-size: 25px;
    }
 
+   /*projects page design*/
+
+   .project-title {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    hr {
+        margin-top: 0;
+        margin-bottom: 25px;
+   }
+
+    #projects {
+    width: 65vw;
+    }
+
+    .project-row {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    .project-row-right {
+        font-size: 8px;
+        margin-top: 8px;
+    }
+
+    /*contact page*/
+    #contacts {
+        text-align: center;
+    }
+
+    .line {
+        height: 1px;
+        width: 80vw;
+        background-color: rgba(40, 40, 41, 0.7);
+    }
+
+    .contact-main-title {
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .mail-title {
+        margin-top: 30px;
+        font-size: 22px;
+
+    }
+
+    .mail-address {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .social-media-title {
+        margin-bottom: 30px;
+        font-size: 22px;
+
+    }
+
+    .social-media-platforms a {
+        margin-bottom: 20px;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .contact-arrow {
+        font-size: 15px;
+        margin-left: 10px;    
+    }
+
+    /*about me page*/
+
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .profile-pic {
+        width: 50vw;
+        margin-bottom: 40px;
+    }
+
+    .mobile-break-about {
+        display: block;
+    }
+
+    .about-line-break {
+        height: 1px;
+        width: 80vw;
+        background-color: rgba(40, 40, 41, 0.7);
+    }
+
+    .about-me-title {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .about-me-text {
+        margin-top: 40px;
+        line-height: 1.7;
+    }
+
 }
+
+
+
 
 
 
@@ -130,12 +247,9 @@
         font-size: 33px;
     }
 
-    .break-tablet {
-        display: block;
-       }
-
        #projects-about > * {
         margin-bottom: 40px;
+        font-size: 22px;
     }
 
     .fa-greater-than {
@@ -155,12 +269,16 @@
 
     .fa-moon {
         margin-top: 0;
-        font-size: 27px;
+        font-size: 25px;
         margin-right: 50px;
     }
 
     .fa-ellipsis {
         font-size: 40px;
+    }
+
+    .intro {
+        font-size: 28px;
     }
 
     /*menu page*/
@@ -176,6 +294,99 @@
         right: 45px;
         font-size: 35px;
        }
+
+       /*projects page*/
+       #projects {
+        width: 60vw;
+        height: 35%;
+    }
+
+    .project-row-left {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .project-row-right {
+        font-size: 14px;
+        margin-top: 17px;
+    }
+
+    hr {
+        margin-bottom: 35px
+    }
+
+    /*contacts page*/
+
+    .contact-main-title {
+        margin-bottom: 50px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .mail-title {
+        margin-top: 40px;
+        font-size: 30px;
+
+    }
+
+    .mail-address {
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+
+    .social-media-title {
+        margin-bottom: 40px;
+        font-size: 30px;
+
+    }
+
+    .social-media-platforms a {
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+
+    .contact-arrow {
+        font-size: 17px;
+        margin-left: 12px;    
+    }
+
+    /*about me page*/
+
+    .about-wrapper {
+        text-align:left;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .profile-pic {
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+    .about-line-break {
+        height: 1px;
+        width: 80vw;
+        background-color: rgba(40, 40, 41, 0.7);
+    }
+
+    .about-me-title {
+        margin-bottom: 60px;
+        font-size: 35px;
+    }
+
+    .about-me-text {
+        margin-top: 50px;
+        line-height: 1.7;
+        font-size: 26px;
+    }
+
+    .mobile-break-about {
+        display: inline;
+    }
+
+    .about-line-break {
+        width: 90vw;
+    }
 }
 
 /*Desktop*/ 
@@ -227,4 +438,50 @@
     /* .break-tablet {
         display: inline;
        } */
+
+       /*projects page*/
+       #projects {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    .project-row-right {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /*contacts page*/
+
+    .social-media-title {
+        margin-top: 40px;
+    }
+
+    .contacts-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /*about me page*/
+
+    .about-me-title {
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+
+    .about-me-text {
+        margin-top: 30px;
+        line-height: 1.8;
+        font-size: 28px;
+        padding: 0 130px;
+    }
+
+    .profile-pic {
+        margin-bottom: 55px;
+        width: 280px;
+    }
+
+    .about-line-break {
+        width: 80vw;
+    }
 }
