@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.7148955b.css",
-    "main.js": "/static/js/main.a6d9c3f1.js",
+    "main.css": "/static/css/main.17d3d970.css",
+    "main.js": "/static/js/main.ce9089bb.js",
     "static/js/787.56d9acf9.chunk.js": "/static/js/787.56d9acf9.chunk.js",
     "static/media/profile-image.svg": "/static/media/profile-image.b8b556ba145b684261c41cec6f6be8c0.svg",
     "static/media/profile-icon.svg": "/static/media/profile-icon.f717f399f92b0162eca6b59557723083.svg",
     "static/media/architects.png": "/static/media/architects.4d2ad870a61c69a31e4e.png",
-    "static/media/sampleIrll.png": "/static/media/sampleIrll.3e18504ae6b600b96364.png",
+    "static/media/seasons.jpg": "/static/media/seasons.f9ae3bee4033d30deb0c.jpg",
     "static/media/little-lemon.png": "/static/media/little-lemon.50025984d7ccca13a911.png",
     "static/media/news-homepage.jpg": "/static/media/news-homepage.9a548f8c20e1f85b9f96.jpg",
     "static/media/cv-mariam-mirzoyan.pdf": "/static/media/cv-mariam-mirzoyan.0100b3a9cce3fe63366e.pdf",
@@ -14,12 +14,12 @@
     "static/media/react-calculator.png": "/static/media/react-calculator.1060032218ad53508ec2.png",
     "static/media/rating-component.jpg": "/static/media/rating-component.e216cabf51047ff9ba7d.jpg",
     "index.html": "/index.html",
-    "main.7148955b.css.map": "/static/css/main.7148955b.css.map",
-    "main.a6d9c3f1.js.map": "/static/js/main.a6d9c3f1.js.map",
+    "main.17d3d970.css.map": "/static/css/main.17d3d970.css.map",
+    "main.ce9089bb.js.map": "/static/js/main.ce9089bb.js.map",
     "787.56d9acf9.chunk.js.map": "/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7148955b.css",
-    "static/js/main.a6d9c3f1.js"
+    "static/css/main.17d3d970.css",
+    "static/js/main.ce9089bb.js"
   ]
 }
